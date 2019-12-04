@@ -12,7 +12,8 @@ from starlette.staticfiles import StaticFiles
 #File URL: https://drive.google.com/file/d/19sd5gVgnf58AypjyQCVG-FV-xZe2OM7J/view?usp=sharing
 #API URL: AIzaSyCTX0naCDVPk7qNncrxwUH_zpWy8wJDOvs
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/19sd5gVgnf58AypjyQCVG-FV-xZe2OM7J?alt=media&key=AIzaSyCTX0naCDVPk7qNncrxwUH_zpWy8wJDOvs'
+#export_file_url = 'https://www.googleapis.com/drive/v3/files/19sd5gVgnf58AypjyQCVG-FV-xZe2OM7J?alt=media&key=AIzaSyCTX0naCDVPk7qNncrxwUH_zpWy8wJDOvs'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1xBF98R3G-p7gYSUSMU-fLvmUJvcG_3P7?alt=media&key=AIzaSyCMsMmPGgPwKpP2cipdkWi8dKYDgghwXRg'
 export_file_name = 'model4.pkl'
 
 classes = ['MEL', 'NV', 'BCC', 'AK', 'BKL', 'DF', 'VASC']
