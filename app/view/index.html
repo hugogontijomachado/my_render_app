@@ -1,0 +1,88 @@
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='../static/style.css'>
+  <script src='../static/client.js'></script>
+</head>
+		<head>
+			<style>
+			.redtext{
+
+					color: red;
+					}
+			</style>
+		</head>
+<body>
+<div>
+    <div class='all'>
+    <header class='header'>
+        <a href="https://medium.com/ieeecisunb" target="_blank">
+            <img 
+            src="https://miro.medium.com/max/60/1*1d689LvN2_BUOltefbiIvw.png" 
+            height="60" 
+            width="60">
+        </a>
+        <h1 class='title'>
+            Classificação de Lesões de Pele
+        </h1>
+        <p class="info">
+            Desenvolvido por Hugo Machado e Igor Santos
+        </p>
+    </header>
+    <p class="text" >
+	O câncer de pele é o tipo mais comum de câncer do mundo, sendo o melanoma o que mais mata. As imagens dermatoscópicas representam<br />
+	um grande avanço no diagnóstico de câncer de pele quando comparadas com diagnóstico sem o auxílio de equipamento.<br />
+	
+
+		<br />
+		<h1 class="redtext">
+		<p  align="Center " >Esta aplicação deve ser utilzada apenas por especialistas.</h1><br /></p>
+	<p  align="Center " >	<b> 1-) Melanoma (MEL)<br /> </p>
+	<p  align="Center " >	2-) Melanocytic nevus (NV)<br /></p>
+	<p  align="Center " >	3-) Basal cell carcinoma (BCC)<br /></p>
+	<p  align="Center " >	4-) Actinic keratosis (AK)<br /></p>
+	<p  align="Center " >	5-) Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis) (BKL)<br /></p>
+	<p  align="Center " >	6-) Dermatofibroma (DF)<br /></p>
+	<p  align="Center " >	7-) Vascular lesion (VASC)</p>
+	<p  align="Center " >	8-) Squamous cell carcinoma (SCC)</p>
+	<p  align="Center " >   9-) None of the others (UNK)</b></p></p>
+    <div class='content'>
+      <div class='select'>
+      <div class='no-display'>
+        <input id='file-input'
+               class='no-display'
+               type='file'
+               name='file'
+               accept='image/*'
+               onchange='showPicked(this)'>
+      </div>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>Selecione uma Imagem</button>
+      <div class='upload-label'>
+        <label id='upload-label'>Nenhuma imagem selecionada</label>
+      </div>
+      <div>
+        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+      </div>
+    </div>
+      <div class='analyze'>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Classificar</button>
+        <div class='result-label'>
+            <label id='result-label'></label>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class='more'>
+        <p>https://challenge2019.isic-archive.com/</p>
+        <p href="" target="_blank"> hugogontijomachado@gmail.com - github/hugoUnB<br />
+		igrsadc@gmail.com - github/igorsadc
+		</p>
+        <img 
+        src="https://miro.medium.com/max/60/1*1d689LvN2_BUOltefbiIvw.png" 
+        height="60" 
+        width="60"
+        >
+    </div>
+</div>
+</body>
+</html>
